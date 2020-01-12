@@ -199,12 +199,12 @@ footer {
     color: #979393;
 }
 
-/*TODO image stretching and cutting*/
 .wrapper__card__img {
     width: 203px;
     height: 197px;
-    background-image: url("img/placeholder.png");
-    background-size: 100%;
+
+    background: url('img/placeholder.png') no-repeat center #000;
+    background-size: cover;
 }
 .card__img {
     max-width: 100%;
