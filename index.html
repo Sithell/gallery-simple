@@ -33,7 +33,11 @@
     <h2>Please select an image from your computer</h2>
     <form action="">
 <!--        TODO file upload-->
-        <input type="file">
+        <input id="choose-file" type="file">
+        <div class="upload">
+            <label class="filename">This is a filename</label>
+            <label class="button--choose" for="choose-file">Browse</label>
+        </div>
         <input type="submit" value="Upload image" class="button--upload">
     </form>
     <div id="gallery">
@@ -253,7 +257,6 @@
 
             </div>
         </div>
-    </div>
     </div>
 </main>
 <footer>

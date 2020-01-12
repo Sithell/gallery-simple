@@ -74,8 +74,6 @@ nav {
 }
 
 
-
-
 h2 {
     font-size: 28px;
     font-weight: bold;
@@ -85,9 +83,15 @@ h2 {
 
 
 form {
-    width: 678px;
+    /*width: 678px;*/
+    width: 100%;
+
+    padding-left: 175px;
+    padding-right: 175px;
     margin: 25px auto 0;
+
     display: flex;
+    justify-content: flex-end;
 }
 
 .button--upload {
@@ -95,17 +99,55 @@ form {
     margin-left: 13px;
     background: linear-gradient(to bottom, #ffa400, #ff6700);
     border: none;
-
+    float: right;
     color: white;
     font-size: 24px;
     font-weight: bold;
 }
 
-.button--upload { /* also input field */
+.button--upload, .upload { /* also input field */
     height: 46px;
     border-radius: 5px;
 }
 
+#choose-file {
+    display: none;
+}
+
+.upload {
+    border: 1px solid #cacaca;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    vertical-align: center;
+}
+
+.filename {
+    flex: 1;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    color: #979393;
+}
+
+.button--choose {
+    background-color: #c1bfbf;
+    color: white;
+    font-size: 18px;
+
+    border: none;
+    border-radius: 5px;
+
+    width: 93px;
+    height: 33px;
+    margin-top: 6px;
+    margin-right: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
 main {
