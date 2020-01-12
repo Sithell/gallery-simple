@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c65fa895-cbe0-48a8-b7e1-dae48d0f7e18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +75,7 @@
       <workItem from="1578814202565" duration="301000" />
       <workItem from="1578825156752" duration="2943000" />
       <workItem from="1578835745182" duration="138000" />
-      <workItem from="1578846721683" duration="5710000" />
+      <workItem from="1578846721683" duration="9081000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Choose file&quot; field&#10;(length adaptive)">
       <created>1578850715728</created>
@@ -90,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578852132803</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Card image scaling and cutting">
+      <created>1578853530432</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578853530432</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Choose file&quot; field&#10;(length adaptive)" />
     <MESSAGE value="Improve adaptivity of &quot;Choose file&quot; field" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve adaptivity of &quot;Choose file&quot; field" />
+    <MESSAGE value="Card image scaling and cutting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Card image scaling and cutting" />
   </component>
 </project>

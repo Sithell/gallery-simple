@@ -59,15 +59,21 @@ nav {
     border-right: 1px solid rgba(0, 0, 0, 0.11);
 }
 
+.nav__li:hover {
+    border-bottom: 5px solid #ff7d00;
+    background: #d1caca linear-gradient(to bottom, #ffffff, #cbc2c2);
+}
+
 .nav__li:last-child {
     border-right: none;
 }
 
-.nav__li-active {
-    border-bottom: 5px solid #ff7d00;
-    background-color: #d1caca;
-    background: linear-gradient(to bottom, #ffffff, #cbc2c2);
-}
+/*When should current active nav__li be highlighted?*/
+/*.nav__li-active {*/
+/*    border-bottom: 5px solid #ff7d00;*/
+/*    background-color: #d1caca;*/
+/*    background: linear-gradient(to bottom, #ffffff, #cbc2c2);*/
+/*}*/
 
 .header__icon {
     margin-bottom: 11px;
@@ -101,10 +107,21 @@ form {
     margin-left: 13px;
     background: linear-gradient(to bottom, #ffa400, #ff6700);
     border: none;
+    opacity: 1;
     float: right;
     color: white;
     font-size: 24px;
     font-weight: bold;
+}
+.button--upload:focus {
+    outline: none;
+}
+.button--upload:hover {
+    cursor: pointer;
+}
+.button--upload:active {
+    /*background: linear-gradient(to top, #ffa400, #ff6700);*/
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .button--upload, .upload { /* also input field */
