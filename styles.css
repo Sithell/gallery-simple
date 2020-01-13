@@ -269,11 +269,32 @@ footer {
     height: 20px;
     width: 20px;
     margin-right: 4px;
-    margin-top: 1px;
+    margin-top: 2px;
+    background-size: 100% 100%;
 }
-.card__icon--social-first {
+.card__icon--twitter {
     margin-left: 12px;
+    background-image: url("img/icon-social-twitter.png");
 }
-.card__icon--social-last {
+.card__icon--twitter:hover {
+    background-image: url("img/icon-social-twitter-active.png");
+}
+.card__icon--facebook {
+    background-image: url("img/icon-social-facebook.png");
+}
+.card__icon--facebook:hover {
+    background-image: url("img/icon-social-facebook-active.png");
+}
+.card__icon--pinterest {
+    background-image: url("img/icon-social-pinterest.png");
+}
+.card__icon--pinterest:hover {
+    background-image: url("img/icon-social-pinterest-active.png");
+}
+.card__icon--tumblr {
     margin-right: 2px;
+    background-image: url("img/icon-social-tumblr.png");
+}
+.card__icon--tumblr:hover {
+    background-image: url("img/icon-social-tumblr-active.png");
 }
