@@ -224,19 +224,32 @@ footer {
     background-size: cover;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 .card__img {
     max-width: 100%;
     height: auto;
 }
 .card__icon--scale {
+    position: absolute;
     opacity: 0;
 }
 .card__icon--scale:hover {
     opacity: 0.6;
 }
+.card__date {
+    float: left;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    font-family: Bebas Neue, serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+    opacity: 0.8;
+}
+
 
 .card__main {
     font-size: 15px;
