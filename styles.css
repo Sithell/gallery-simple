@@ -222,12 +222,21 @@ footer {
 
     background: url('img/placeholder.png') no-repeat center #000;
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card__img {
     max-width: 100%;
     height: auto;
 }
-
+.card__icon--scale {
+    opacity: 0;
+}
+.card__icon--scale:hover {
+    opacity: 0.6;
+}
 
 .card__main {
     font-size: 15px;
