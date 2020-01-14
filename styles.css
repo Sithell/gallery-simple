@@ -294,29 +294,67 @@ footer {
     margin-top: 2px;
     background-size: 100% 100%;
 }
+
 .card__icon--twitter {
     margin-left: 12px;
-    background-image: url("img/icon-social-twitter.png");
+    background-image: url("img/icon/social-twitter.png");
 }
 .card__icon--twitter:hover {
-    background-image: url("img/icon-social-twitter-active.png");
+    background-image: url("img/icon/social-twitter-active.png");
 }
 .card__icon--facebook {
-    background-image: url("img/icon-social-facebook.png");
+    background-image: url("img/icon/social-facebook.png");
 }
 .card__icon--facebook:hover {
-    background-image: url("img/icon-social-facebook-active.png");
+    background-image: url("img/icon/social-facebook-active.png");
 }
 .card__icon--pinterest {
-    background-image: url("img/icon-social-pinterest.png");
+    background-image: url("img/icon/social-pinterest.png");
 }
 .card__icon--pinterest:hover {
-    background-image: url("img/icon-social-pinterest-active.png");
+    background-image: url("img/icon/social-pinterest-active.png");
 }
 .card__icon--tumblr {
     margin-right: 2px;
-    background-image: url("img/icon-social-tumblr.png");
+    background-image: url("img/icon/social-tumblr.png");
 }
 .card__icon--tumblr:hover {
-    background-image: url("img/icon-social-tumblr-active.png");
+    background-image: url("img/icon/social-tumblr-active.png");
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
